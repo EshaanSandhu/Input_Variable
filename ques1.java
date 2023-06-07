@@ -12,7 +12,7 @@ System.out.println("Enter double value:");
 double c=scanner.nextDouble();
 System.out.println("C="+c);
 System.out.println("Enter char value:");
-String d=scanner.nextLine();
+char d=scanner.next().charAt(0);
 System.out.println("D="+d);
 }
 }
